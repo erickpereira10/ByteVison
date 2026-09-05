@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Byte Vision — desenvolvimento de sites, sistemas e soluções digitais sob medida.">
+  <title>Byte Vision | Tecnologia que transforma ideias</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdnfonts.com" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a class="logo" href="#inicio" aria-label="Byte Vision">
+         <img src="logo1.png" width="40" height="40">
+         <img src="logo2.png" width="150" height="40"> 
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#processo">Processo</a>
+        <a class="nav-cta" href="#orcamento">Orçamento</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-grid container">
+        <div class="hero-content reveal">
+          <div class="eyebrow"><span></span> Desenvolvimento digital sob medida</div>
+          <h1>Transformamos <em>ideias</em> em tecnologia.</h1>
+          <p>Sites modernos, sistemas personalizados e soluções digitais criadas para ajudar sua empresa a crescer.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#orcamento">Quero um projeto <span>→</span></a>
+            <a class="btn btn-ghost" href="#projetos">Ver projetos</a>
+          </div>
+          <div class="hero-trust">
+            <div class="avatars"><i>BV</i><i>JS</i><i>CS</i></div>
+            <div><strong>Projetos sob medida</strong><small>Do planejamento à entrega</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay">
+          <div class="code-window">
+            <div class="window-top"><span></span><span></span><span></span><b>byte-vision.js</b></div>
+            <pre><code><span class="purple">const</span> <span class="blue">solution</span> = {
+  <span class="cyan">design</span>: <span class="green">"moderno"</span>,
+  <span class="cyan">performance</span>: <span class="orange">true</span>,
+  <span class="cyan">responsive</span>: <span class="orange">true</span>,
+  <span class="cyan">yourBusiness</span>: <span class="green">"online"</span>
+};
+
+<span class="purple">function</span> <span class="blue">createFuture</span>() {
+  <span class="purple">return</span> <span class="green">"Byte Vision 🚀"</span>;
+}</code></pre>
+            <div class="code-footer"><span>●</span> system online <strong>100%</strong></div>
+          </div>
+          <div class="floating-card card-one"><span>⚡</span><b>Alta performance</b><small>Experiência rápida</small></div>
+          <div class="floating-card card-two"><span>◈</span><b>Design moderno</b><small>Feito para sua marca</small></div>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <div><strong>100%</strong><span>Projetos personalizados</span></div>
+        <div><strong>∞</strong><span>Possibilidades digitais</span></div>
+        <div><strong>24/7</strong><span>Sua presença online</span></div>
+        <div><strong>1</strong><span>Parceiro para seu projeto</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container two-col">
+        <div class="section-heading reveal">
+          <div class="eyebrow"><span></span> Sobre a Byte Vision</div>
+          <h2>Tecnologia com visão de negócio.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>A Byte Vision nasceu para transformar problemas reais em soluções digitais simples, bonitas e eficientes.</p>
+          <p>Unimos desenvolvimento, design e estratégia para criar experiências que fazem sentido para pessoas e empresas.</p>
+          <div class="about-points">
+            <div><b>01</b><span><strong>Feito sob medida</strong><small>Seu projeto, suas regras e necessidades.</small></span></div>
+            <div><b>02</b><span><strong>Foco em resultado</strong><small>Tecnologia pensada para gerar valor.</small></span></div>
+            <div><b>03</b><span><strong>Visual profissional</strong><small>Design moderno em todos os dispositivos.</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow"><span></span> O que fazemos</div>
+          <h2>Soluções para colocar<br><em>sua empresa no próximo nível.</em></h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"><div class="service-icon">⌘</div><span>01</span><h3>Sites profissionais</h3><p>Sites rápidos, responsivos e pensados para apresentar sua marca e converter visitantes em clientes.</p><a href="#orcamento">Saiba mais →</a></article>
+          <article class="service-card featured reveal"><div class="service-icon">▣</div><span>02</span><h3>Sistemas personalizados</h3><p>Automatize processos com sistemas desenvolvidos de acordo com o funcionamento da sua empresa.</p><a href="#orcamento">Saiba mais →</a></article>
+          <article class="service-card reveal"><div class="service-icon">◉</div><span>03</span><h3>Aplicações web</h3><p>Ferramentas online acessíveis de qualquer lugar, com uma experiência moderna e intuitiva.</p><a href="#orcamento">Saiba mais →</a></article>
+          <article class="service-card reveal"><div class="service-icon">↗</div><span>04</span><h3>E-commerce</h3><p>Lojas virtuais para apresentar produtos, receber pedidos e expandir suas vendas.</p><a href="#orcamento">Saiba mais →</a></article>
+          <article class="service-card reveal"><div class="service-icon">⌁</div><span>05</span><h3>Integrações & APIs</h3><p>Conecte sistemas, serviços e dados para reduzir tarefas manuais e ganhar produtividade.</p><a href="#orcamento">Saiba mais →</a></article>
+          <article class="service-card reveal"><div class="service-icon">✦</div><span>06</span><h3>Soluções com IA</h3><p>Explore automações e recursos inteligentes para tornar seu negócio mais eficiente.</p><a href="#orcamento">Saiba mais →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos">
+      <div class="container">
+        <div class="section-heading project-head reveal">
+          <div><div class="eyebrow"><span></span> Projetos</div><h2>Ideias que ganharam vida.</h2></div>
+          <a class="text-link" href="#orcamento">Quero um projeto assim →</a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card large reveal">
+            <div class="project-art barber"><div class="mini-nav">BARBER<span>SYSTEM</span></div><div class="dash"><b>Dashboard</b><div class="mini-cards"><i></i><i></i><i></i></div><div class="mini-chart"></div></div></div>
+            <div class="project-info"><div><span>Software</span><h3>BarberSystem</h3></div><p>Gestão para barbearias</p></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art clinic"><div class="clinic-top">Mogi Mirim<b> Esporte Clube</b></div><div class="patient"><i></i><span></span><span></span></div><div class="appointment"></div></div>
+            <div class="project-info"><div><span>Sistema web</span><h3>Time de Futebol </h3></div><p>Gestão e agendamentos</p></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-art moto"><div class="moto-title">ALEXANDRE<br><b>MOTOS</b></div><div class="bike">🏍️</div></div>
+            <div class="project-info"><div><span>Web & negócios</span><h3>Alexandre Motos</h3></div><p>Presença digital</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="processo">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow"><span></span> Como funciona</div>
+          <h2>Do primeiro contato ao<br><em>projeto entregue.</em></h2>
+        </div>
+        <div class="process-line">
+          <div class="process-item reveal"><b>01</b><div class="process-icon">◎</div><h3>Conversa</h3><p>Entendemos sua ideia, objetivo e necessidades.</p></div>
+          <div class="process-item reveal"><b>02</b><div class="process-icon">◇</div><h3>Planejamento</h3><p>Definimos funcionalidades, visual e estratégia.</p></div>
+          <div class="process-item reveal"><b>03</b><div class="process-icon">⌁</div><h3>Desenvolvimento</h3><p>Construímos e testamos cada parte do projeto.</p></div>
+          <div class="process-item reveal"><b>04</b><div class="process-icon">✓</div><h3>Entrega</h3><p>Publicamos sua solução e orientamos você.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-box reveal">
+        <div class="cta-glow"></div>
+        <div><div class="eyebrow"><span></span> Vamos criar juntos</div><h2>Seu próximo projeto<br>começa com uma conversa.</h2></div>
+        <a class="btn btn-primary" href="#orcamento">Começar agora <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section contact" id="orcamento">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <div class="eyebrow"><span></span> Fale com a Byte Vision</div>
+          <h2>Conte sua ideia.<br><em>A gente transforma.</em></h2>
+          <p>Preencha o formulário e vamos conversar sobre o melhor caminho para o seu projeto.</p>
+          <div class="contact-details">
+            <a href="https://wa.me/5519982228520" target="_blank" rel="noopener"><i class="fa fa-whatsapp" aria-hidden="true"></i><div><small>WhatsApp</small><b>(19) 98222-8520</b></div></a>
+            <a href="mailto:contato@bytevision.dev"><i class="fa fa-envelope" aria-hidden="true"></i><div><small>E-mail</small><b>contato@bytevision.dev</b></div></a>
+          </div>
+        </div>
+        <form class="quote-form reveal" id="quoteForm">
+          <div class="form-row"><label>Seu nome<input name="nome" required placeholder="Como podemos te chamar?"></label><label>WhatsApp<input name="whatsapp" required placeholder="(19) 99999-9999"></label></div>
+          <label>Tipo de projeto<select name="projeto" required><option value="">Selecione uma opção</option><option>Site profissional</option><option>Sistema personalizado</option><option>Aplicação web</option><option>E-commerce</option><option>Integração / API</option><option>Solução com IA</option><option>Outro</option></select></label>
+          <label>Conte um pouco sobre seu projeto<textarea name="mensagem" rows="5" required placeholder="O que você precisa desenvolver?"></textarea></label>
+          <button class="btn btn-primary full" type="submit">Enviar pelo WhatsApp <span>↗</span></button>
+          <small class="form-note">Ao enviar, você será direcionado ao WhatsApp da Byte Vision.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <div><a class="logo" href="#inicio">
+      <img src="logo1.png" width="40" height="40">
+      <img src="logo2.png" width="150" height="40"> 
+      </a><p>Tecnologia que transforma ideias em soluções digitais.</p></div>
+      <div class="footer-links"><div><b>Navegação</b><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#projetos">Projetos</a><a href="#orcamento">Orçamento</a></div><div><b>Social</b><a href="#" aria-label="Instagram">Instagram ↗</a><a href="#" aria-label="LinkedIn">LinkedIn ↗</a><a href="#" aria-label="GitHub">GitHub ↗</a></div></div>
+    </div>
+    <div class="container footer-bottom"><p>© 2026 Byte Vision. Todos os direitos reservados.</p><p>Desenvolvido com tecnologia & paixão.</p></div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/5519982228520" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+  <button class="back-top" id="backTop" aria-label="Voltar ao topo">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
